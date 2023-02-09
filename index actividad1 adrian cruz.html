@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjetas de Notificacion</title>
+
+    <link rel="stylesheet" href="estilos actividad1 adrian cruz.css">
+</head>
+<body>
+    <div class="caja_verde" id="verde">
+        <div>
+            <h3>Exito</h3>
+            <p>Si jalo </p>
+        </div>
+        <button onclick="cerrarCaja('verde')">x</button>
+    </div>
+   
+
+    <div  class="caja_amarilla" id="amarilla">
+        <div>
+            <h3>Advertencia</h3>
+            <p>Puede que no jale </p>
+        </div>
+        <button onclick="cerrarCaja('amarilla')">x</button>
+    </div>
+
+    
+    <div class="caja_roja" id="roja">
+        <div>
+            <h3>Peligro</h3>
+            <p>No jalo</p>
+        </div>
+        <button onclick="cerrarCaja('roja')">x</button>
+    </div>
+
+
+    <div id="contenido">
+        <p></p>
+    </div>
+</body>
+
+<script src="script actividad1 adrian cruz.js"></script>
+
+</html>
